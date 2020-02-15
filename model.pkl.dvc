@@ -1,17 +1,19 @@
-md5: 55dae0795ba286ddbc24516783988e6f
-cmd: sed -e 's/data/USERS data/' users.csv > model.pkl; touch metrics.json
+md5: 1c78f679b6db4d30c691730409b13ebe
+cmd: sed -e 's/data/USERS data/' users.csv > model.pkl; mv m.tmp metrics.json
 deps:
-- md5: 97215532a21d13daa5bf932f93a7d518
+- md5: a2f8b6a209a79ab928c3667a6ce46de8
   path: users.csv
+- path: params.yaml
+  params:
+    eta: 0.2
 outs:
-- md5: 3fe4b348bcdcd5d8d21ccda8b14d8f8a
+- md5: 4f13c7de9e86017ac89469e1aeb6ccbf
   path: model.pkl
   cache: true
   metric: false
   persist: false
-- md5: d41d8cd98f00b204e9800998ecf8427e
+- md5: 03153f7c005bc497f3f57ced8a64a05c
   path: metrics.json
   cache: false
-  metric:
-    type: raw
+  metric: true
   persist: false
