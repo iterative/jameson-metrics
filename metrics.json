@@ -1,1 +1,1 @@
-{"AUC": null, "TP": 0, "TN": null, "CV": 0.28457, "last_score": 0}
+{"AUC": 0.51849, "TP": 0, "TN": null, "CV": 0.28759, "t-factor": 54}
