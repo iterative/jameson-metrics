@@ -1,4 +1,4 @@
-md5: d59c4bed2daa716aba5061da53e84614
+md5: 116a03ea0898b6dc069a17d193810647
 cmd: sed -e 's/data/USERS data/' users.csv > model.pkl; mv m.tmp metrics.json
 deps:
 - md5: a2f8b6a209a79ab928c3667a6ce46de8
@@ -6,15 +6,16 @@ deps:
 - path: params.yaml
   params:
     dropout: 0.3
-    inter: 4.0
-    L4size: 14.0
+    inter: 6.0
+    L4size: 20.0
+    L5size: 37.0
 outs:
 - md5: 4f13c7de9e86017ac89469e1aeb6ccbf
   path: model.pkl
   cache: true
   metric: false
   persist: false
-- md5: f8b01e6f5238acb555f77b7129bf7a7a
+- md5: 25b2245d33451aa2deb3f0b662c14bb3
   path: metrics.json
   cache: false
   metric: true

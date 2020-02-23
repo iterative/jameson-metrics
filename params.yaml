@@ -1,3 +1,4 @@
-L4size: 14.0
+L4size: 20.0
+L5size: 37.0
 dropout: 0.3
-inter: 4.0
+inter: 6.0
