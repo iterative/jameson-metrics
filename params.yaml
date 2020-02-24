@@ -3,5 +3,5 @@ L5size: 37.0
 drop_l:
 - 2
 - 4
-dropout: 0.3
+dropout: 0.25
 inter: 6.0
