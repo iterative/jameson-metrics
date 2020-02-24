@@ -1,8 +1,5 @@
-L4size: 24.0
-L5size: 42.0
-drop_l:
-- 2
-- 4
-- 5
-dropout: 0.25
-inter: 6.0
+L1: 0.3
+depth: 30.0
+eta: 0.18
+gamma: 0.6
+took: 45.24
