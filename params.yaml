@@ -3,4 +3,4 @@ depth: 30.0
 epoch: 120.0
 eta: 0.15
 gamma: 0.6
-took: 0.48
+took: 0.39
