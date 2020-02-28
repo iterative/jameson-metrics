@@ -1,5 +1,5 @@
 L4size: 24.0
-L5size: 48.0
+L5size: 52.0
 algo: nn_bipart
 drop_l:
 - 2
@@ -7,4 +7,4 @@ drop_l:
 - 5
 dropout: 0.289
 inter: 8.0
-moment: 0.35
+moment: 0.75
